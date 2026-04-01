@@ -3,27 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DrawJapanese Privacy Policy</title>
+  <title>WanWan! Privacy Policy</title>
   <style>
     :root {
-      --bg: #f7f4ee;
-      --card: #fffdf8;
-      --text: #1f1a17;
-      --muted: #6a5f57;
-      --accent: #b64a2b;
-      --border: #e6ddd2;
+      --bg: #ffffff;
+      --card: #ffffff;
+      --text: #1a1a2e;
+      --muted: #6b7280;
+      --accent: #f97316;
+      --border: #f0f0f0;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background: linear-gradient(180deg, #efe7db 0%, var(--bg) 180px);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(180deg, #fff5eb 0%, var(--bg) 200px);
       color: var(--text);
-      line-height: 1.65;
+      line-height: 1.7;
     }
 
     .wrap {
@@ -35,76 +33,72 @@
     .card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 32px;
-      box-shadow: 0 10px 30px rgba(47, 34, 22, 0.06);
+      border-radius: 20px;
+      padding: 36px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
     }
 
-    h1, h2 {
-      line-height: 1.2;
-      margin: 0 0 16px;
-    }
-
-    h1 {
-      font-size: clamp(2rem, 5vw, 3.25rem);
-    }
-
-    h2 {
-      font-size: 1.2rem;
-      margin-top: 28px;
-    }
-
-    p {
-      margin: 0 0 14px;
-    }
-
-    a {
-      color: var(--accent);
-    }
-
-    .lede, .muted {
-      color: var(--muted);
+    h1, h2 { line-height: 1.2; margin: 0 0 16px; }
+    h1 { font-size: clamp(2rem, 5vw, 2.75rem); font-weight: 800; }
+    h2 { font-size: 1.15rem; margin-top: 28px; font-weight: 700; }
+    p { margin: 0 0 14px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .lede, .muted { color: var(--muted); }
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 8px;
+      margin-bottom: 12px;
     }
   </style>
 </head>
 <body>
   <main class="wrap">
     <section class="card">
+      <span class="badge">WanWan! - Japanese Practice</span>
       <h1>Privacy Policy</h1>
-      <p class="lede">This Privacy Policy applies to DrawJapanese.</p>
+      <p class="lede">Your privacy is important to us. Here's what you need to know.</p>
 
-      <h2>Information DrawJapanese Uses</h2>
-      <p>DrawJapanese is designed to work primarily on your device. Based on the current app implementation, the app stores practice-related information locally on the device, including:</p>
-      <p>Progress records for kana you have practiced, quiz session history, saved drawing attempts, recognition confidence values, timestamps, and your sound preference setting.</p>
+      <h2>Information WanWan! Uses</h2>
+      <p>WanWan! is designed to work entirely on your device. The app stores practice-related information locally, including:</p>
+      <p>Progress records for lessons, vocabulary, and kana you have practiced; quiz session history; saved drawing attempts; recognition confidence values; timestamps; and your sound and speech preferences.</p>
+
+      <h2>Microphone &amp; Speech Recognition</h2>
+      <p>WanWan! uses the device microphone and Apple's on-device speech recognition for voice-based practice drills. Audio is processed locally using Apple's Speech framework and is not sent to external servers by the app.</p>
 
       <h2>Handwriting Recognition</h2>
-      <p>When you draw kana in the app, the drawing is processed on-device using Apple frameworks and bundled machine learning models to evaluate practice attempts. Your handwriting data is not sent to a remote server by the app’s current implementation.</p>
+      <p>When you draw kana characters in the app, the drawing is processed on-device using Apple frameworks and bundled CoreML models. Your handwriting data is not sent to any remote server.</p>
 
       <h2>Personal Information</h2>
-      <p>DrawJapanese does not require account creation and does not ask you to provide your name, phone number, mailing address, or other direct contact details in order to use the app.</p>
+      <p>WanWan! does not require account creation and does not collect your name, email address, phone number, or other personal contact details.</p>
 
       <h2>Analytics, Advertising, and Tracking</h2>
-      <p>Based on the current app implementation, DrawJapanese does not include third-party advertising SDKs, third-party analytics SDKs, or app-based tracking for advertising purposes.</p>
+      <p>WanWan! does not include third-party advertising SDKs, third-party analytics SDKs, or any app-based tracking for advertising purposes.</p>
 
       <h2>Data Sharing</h2>
-      <p>DrawJapanese does not share your locally stored practice data with third parties through the app’s current implementation.</p>
+      <p>WanWan! does not share your locally stored practice data with third parties.</p>
 
       <h2>Data Storage</h2>
-      <p>Practice history and related records are stored locally on your device. If you remove the app, locally stored app data may also be removed by iOS.</p>
+      <p>All practice history, quiz results, drawing attempts, and progress data are stored locally on your device using SwiftData. If you remove the app, all locally stored data will also be removed.</p>
 
-      <h2>Children’s Privacy</h2>
-      <p>DrawJapanese does not knowingly collect personal information from children through the app’s current implementation.</p>
+      <h2>Children's Privacy</h2>
+      <p>WanWan! does not knowingly collect personal information from children. The app is suitable for all ages.</p>
 
       <h2>Your Choices</h2>
-      <p>You can stop using the app at any time and may remove the app from your device if you no longer want locally stored app data kept on that device.</p>
+      <p>You can stop using the app at any time. You may revoke microphone and speech recognition permissions in your device's Settings at any time. Removing the app will delete all locally stored data.</p>
 
       <h2>Changes to This Policy</h2>
-      <p>This policy may be updated if the app’s features or data practices change. Any updated version should be posted with a revised effective date.</p>
+      <p>This policy may be updated if the app's features or data practices change. Any updated version will be posted with a revised effective date.</p>
 
       <h2>Contact</h2>
       <p>If you have questions about this Privacy Policy, contact <a href="mailto:akiratoriniku@gmail.com">akiratoriniku@gmail.com</a>.</p>
 
-      <p class="muted">Effective date: March 11, 2026</p>
+      <p class="muted">Effective date: March 31, 2026</p>
     </section>
   </main>
 </body>

@@ -3,27 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DrawJapanese Support</title>
+  <title>WanWan! Support</title>
   <style>
     :root {
-      --bg: #f7f4ee;
-      --card: #fffdf8;
-      --text: #1f1a17;
-      --muted: #6a5f57;
-      --accent: #b64a2b;
-      --border: #e6ddd2;
+      --bg: #ffffff;
+      --card: #ffffff;
+      --text: #1a1a2e;
+      --muted: #6b7280;
+      --accent: #f97316;
+      --border: #f0f0f0;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background: linear-gradient(180deg, #efe7db 0%, var(--bg) 180px);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(180deg, #fff5eb 0%, var(--bg) 200px);
       color: var(--text);
-      line-height: 1.6;
+      line-height: 1.7;
     }
 
     .wrap {
@@ -35,74 +33,94 @@
     .card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 32px;
-      box-shadow: 0 10px 30px rgba(47, 34, 22, 0.06);
+      border-radius: 20px;
+      padding: 36px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
     }
 
-    h1, h2 {
-      line-height: 1.2;
-      margin: 0 0 16px;
-    }
-
-    h1 {
-      font-size: clamp(2rem, 5vw, 3.25rem);
-    }
-
-    h2 {
-      font-size: 1.2rem;
-      margin-top: 28px;
-    }
-
-    p {
-      margin: 0 0 14px;
-    }
-
-    .lede {
-      font-size: 1.08rem;
-      color: var(--muted);
-    }
-
-    a {
-      color: var(--accent);
-    }
+    h1, h2 { line-height: 1.2; margin: 0 0 16px; }
+    h1 { font-size: clamp(2rem, 5vw, 2.75rem); font-weight: 800; }
+    h2 { font-size: 1.15rem; margin-top: 28px; font-weight: 700; }
+    p { margin: 0 0 14px; }
+    .lede { font-size: 1.05rem; color: var(--muted); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
 
     ul {
       padding-left: 20px;
       margin: 0 0 14px;
     }
 
+    li { margin-bottom: 6px; }
+
     .footer {
       margin-top: 24px;
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       color: var(--muted);
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+
+    .email-box {
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      border-radius: 12px;
+      padding: 16px;
+      margin: 16px 0;
+      text-align: center;
+    }
+
+    .email-box a {
+      font-size: 1.1rem;
+      font-weight: 700;
     }
   </style>
 </head>
 <body>
   <main class="wrap">
     <section class="card">
-      <h1>DrawJapanese Support</h1>
-      <p class="lede">Support information for the DrawJapanese App Store listing.</p>
+      <span class="badge">WanWan! - Japanese Practice</span>
+      <h1>Support</h1>
+      <p class="lede">Need help? We're here for you.</p>
 
-      <h2>Contact</h2>
-      <p>For support, bug reports, or App Store questions, contact <a href="mailto:akiratoriniku@gmail.com">akiratoriniku@gmail.com</a>.</p>
+      <h2>Contact Us</h2>
+      <div class="email-box">
+        <p>For support, bug reports, or feature requests:</p>
+        <a href="mailto:akiratoriniku@gmail.com">akiratoriniku@gmail.com</a>
+      </div>
 
-      <h2>What DrawJapanese Does</h2>
-      <p>DrawJapanese is a kana handwriting practice app for learning and reviewing Japanese characters. The app includes kana study, drawing practice, quizzes, and progress tracking.</p>
+      <h2>What WanWan! Does</h2>
+      <p>WanWan! is a voice-first Japanese learning app with 37 structured lessons. The app teaches through listening, speaking, and hands-free quizzes — covering greetings, daily life, food, travel, and more. It also includes handwriting recognition for kana practice, a reference library, verb conjugations, and collectible rewards.</p>
 
       <h2>Common Help Topics</h2>
       <ul>
-        <li>Handwriting recognition feedback during kana practice</li>
-        <li>Saved progress, quiz history, and drawing history</li>
-        <li>Sound effects and Japanese pronunciation playback</li>
-        <li>General app issues, bugs, or feature requests</li>
+        <li><strong>Microphone not working</strong> — Make sure microphone and speech recognition permissions are enabled in Settings → WanWan!</li>
+        <li><strong>Speech not recognized correctly</strong> — Try speaking clearly and at a normal pace. The app listens for 1-2 seconds of silence before evaluating.</li>
+        <li><strong>Handwriting not recognized</strong> — Draw each stroke in the correct order, following the ghost guide. Clear and try again if needed.</li>
+        <li><strong>Progress not saving</strong> — Progress is saved automatically. Make sure you complete each module to save your progress.</li>
+        <li><strong>No sound</strong> — Check that your device is not on silent mode and the volume is up.</li>
+        <li><strong>App crashes or freezes</strong> — Try closing and reopening the app. If the issue persists, please email us with your device model and iOS version.</li>
       </ul>
 
       <h2>When You Email</h2>
-      <p>Please include your device model, iOS version, and a short description of the problem so support can respond more effectively.</p>
+      <p>To help us resolve your issue quickly, please include:</p>
+      <ul>
+        <li>Your device model (e.g. iPhone 15 Pro)</li>
+        <li>Your iOS version (e.g. iOS 18.3)</li>
+        <li>A short description of the problem</li>
+        <li>Steps to reproduce the issue, if possible</li>
+      </ul>
 
-      <p class="footer">Last updated: March 11, 2026</p>
+      <p class="footer">Last updated: March 31, 2026</p>
     </section>
   </main>
 </body>
